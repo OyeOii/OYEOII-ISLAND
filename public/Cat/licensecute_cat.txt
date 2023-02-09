@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cute Cat
+* source:	https://sketchfab.com/3d-models/cute-cat-d06965e6712646328129388b32c47b96
+* author:	Fayme Wong (https://sketchfab.com/FaymeWong)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cute Cat" (https://sketchfab.com/3d-models/cute-cat-d06965e6712646328129388b32c47b96) by Fayme Wong (https://sketchfab.com/FaymeWong) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

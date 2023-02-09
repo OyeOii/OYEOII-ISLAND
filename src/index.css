@@ -1,0 +1,214 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+html,
+body
+{
+    /* margin: 0; */
+    overflow: hidden;
+    background: #000000;
+}
+
+/* .progress-bar-container {
+  position: initial;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#progress-bar {
+  width: 30%;
+  margin-top: 0.5%;
+  height: 2%;
+}
+
+label {
+  color: #ffffff;
+  font-size: 2rem;
+} */
+
+.webgl
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    outline: none;
+    
+    
+}
+
+canvas
+{
+  touch-action: none;
+  background-color:  
+    /* ff 3.6+ */
+    -moz-radial-gradient(circle at 88% 43%, rgba(220, 119, 220, 1) 0%, rgba(61, 220, 255, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 88% 43%, rgba(220, 119, 220, 1) 0%, rgba(61, 220, 255, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 88% 43%, rgb(226, 134, 226) 0%, rgba(61, 220, 255, 1) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 88% 43%, rgba(220, 119, 220, 1) 0%, rgba(61, 220, 255, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 88% 43%, rgba(220, 119, 220, 1) 0%, rgba(61, 220, 255, 1) 100%);
+    
+    
+}
+
+.loading-bar 
+{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 2px;
+    background-color: #000000;
+    transform: scaleX(0.3);
+    transform-origin: top left;
+    transition: transform 0.5s;
+}
+
+.loading-bar.ended
+{
+    transform: scaleX(0);
+    transform-origin: 100% 0;
+    transition: transform 1.5s ease-in-out;
+}
+.point
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+
+.point:hover .text
+{
+  opacity: 1;
+  
+}
+
+/* .point:hover .text2
+{
+  opacity: 1;
+} */
+
+.point.visible .label
+{
+  transform: scale(1, 1);
+}
+
+/* .point.visible .label2
+{
+  transform: scale(1, 1);
+} */
+
+.point .label
+{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: #00000077;
+  color: #ffffff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-weight: 100;
+  font-size: 24px;
+  opacity: 0.5;
+  cursor: help;
+  transform: scale(0, 0);
+  transition: transform 0.3s;
+
+}
+
+.point .text
+{
+  display: absolute;
+  top: 10px;
+  left: -100px;
+  padding: 20px;
+  background: #ee80eea1;
+  font-size: 12px;
+  font-weight: 100;
+  line-height: 1.3em;
+  color: #0a0111b1;
+  border-radius: 10%;
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+
+}
+
+.point.visible .label
+{
+  transform: scale(1, 1);
+}
+
+/* .point .label2
+{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: #00000077;
+  color: #ffffff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-weight: 100;
+  font-size: 24px;
+  opacity: 0.5;
+  cursor: help;
+  transform: scale(0, 0);
+  transition: transform 0.3s;
+ 
+
+}
+
+.point .text2
+{
+  display: absolute;
+  top: 50px;
+  left: -100px;
+  padding: 20px;
+  background: #ee80eea1;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 1.3em;
+  color: #0a0111b1;
+  border-radius: 10%;
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+
+} */
+
+#root
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+
+    
+}
+
+
